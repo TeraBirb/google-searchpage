@@ -175,6 +175,8 @@ h3 a {
   color: #222;
   font-size: 18px;
   font-weight: normal;
+  padding: 10px;
+  margin-top: 30px;
 }
 
 .video-results {
@@ -182,9 +184,16 @@ h3 a {
 }
 
 .vid {
+  display: inline-block;
   width: 215px;
+  height: ;
   border: solid 1px #22222225;
   border-radius: 8px;
+  margin-right: 10px;
+}
+
+.video-results .vid:nth-child(3) .vid-desc {
+  margin-top: 24px;
 }
 
 .thumbnail,
