@@ -59,7 +59,7 @@ input:focus {
   position: relative;
   margin: 18px;
   height: 85px;
-  left: 870px;
+  left: 850px;
   bottom: 10px;
 }
 
@@ -74,12 +74,12 @@ input:focus {
 
 #top-right a {
   background-color: cornflowerblue;
-  margin: 20px 20px 15px 20px;
+  margin: 20px 30px 15px 20px;
   padding: 10px 13px;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 15;
+  font-size: 13px;
   border-radius: 5px;
 }
 
@@ -181,6 +181,7 @@ h3 a {
 
 .video-results {
   height: 320px;
+  margin-bottom: 50px;
 }
 
 .vid {
