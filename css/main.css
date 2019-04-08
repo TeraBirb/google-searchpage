@@ -25,6 +25,12 @@ a {
   text-decoration: none;
 }
 
+h3 a {
+  font-size: 18px;
+  font-weight: normal;
+  color: #1a0dab;
+}
+
 #logo {
   display: inline;
 }
@@ -59,7 +65,7 @@ input:focus {
   position: relative;
   margin: 18px;
   height: 85px;
-  left: 975px;
+  left: 870px;
   bottom: 10px;
 }
 
@@ -113,4 +119,55 @@ nav ul .selected {
 
 .blue {
   color: cornflowerblue;
+}
+
+/* Search Results */
+
+#search-stats {
+  padding: 8px;
+}
+
+#search-results span {
+}
+
+#search-results {
+  width: 37%;
+  margin-left: 158px;
+}
+
+.result {
+  padding: 8px 12px;
+}
+
+.result cite {
+  color: #006621;
+  font-style: normal;
+}
+
+.result span {
+  display: block;
+  color: #545454;
+}
+
+.result #date-visited {
+  color: #777777;
+}
+
+#people-also {
+  border: solid 1px #22222225;
+  border-radius: 8px;
+}
+
+#people-also div {
+  padding: 4px 8px;
+  background: none;
+  color: #222222;
+  font-size: 18px;
+  border-top: solid 1px #22222225;
+}
+
+#people-also div:first-child {
+  font-size: 20px;
+  color: #808080;
+  border-top: none;
 }
