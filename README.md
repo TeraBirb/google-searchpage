@@ -1,0 +1,1 @@
+Hello, this is the follow up mini-project for Google Homepage. Expect very rough code. :)
