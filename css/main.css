@@ -259,7 +259,7 @@ h3 a {
 #long-google {
   margin-top: 30px;
   margin-left: 150px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 #long-google ul {
@@ -285,8 +285,40 @@ h3 a {
   margin-left: 40px;
 }
 
-/* Filler */
-p {
-  margin-top: 100px;
-  margin-bottom: 400px;
+/* Footer */
+
+footer {
+  background-color: #ececec;
+  position: absolute;
+  height: 70px;
+  width: 100%;
+}
+
+footer span,
+footer b,
+footer ul,
+footer li,
+footer div,
+footer a {
+  background: none;
+}
+
+footer span {
+  margin-top: 10px;
+  padding: 7px 150px;
+  font-size: 14px;
+}
+
+footer ul {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+footer li a {
+  font-size: 14px;
 }
