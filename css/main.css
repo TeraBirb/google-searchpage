@@ -230,6 +230,30 @@ h3 a {
   color: #006621;
 }
 
+/* Related */
+.related h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #222;
+  padding: 20px;
+  padding-left: 0;
+}
+
+#col-1 {
+  float: left;
+  width: 275px;
+}
+
+.related ul {
+  list-style: none;
+}
+
+.related ul li a {
+  color: #1a0dab;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 /* Filler */
 p {
   margin-top: 100px;
